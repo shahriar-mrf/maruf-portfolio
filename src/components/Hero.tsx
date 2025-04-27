@@ -4,9 +4,9 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center py-20">
-      <div className="container px-4">
-        <div className="flex flex-col lg:flex-row items-center gap-12">
+    <section className="min-h-screen flex items-center justify-center py-20" id="home">
+      <div className="container px-4 pt-16">
+        <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
           <div className="w-64 h-64 lg:w-96 lg:h-96 relative">
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-500/20 to-blue-500/20 animate-pulse" />
             <img
@@ -15,7 +15,7 @@ const Hero = () => {
               className="rounded-full w-full h-full object-cover relative z-10"
             />
           </div>
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-left flex-1">
             <h1 className="text-4xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-blue-500 text-transparent bg-clip-text">
               Maruf Shahriar
             </h1>
